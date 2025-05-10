@@ -13,5 +13,5 @@ jobs:
     
     # definitions of all job steps
     steps:
-      name: Print Hello World # step name, displayed on UI
-      run: echo Hello world! # print "Hello world!" here
+      - name: Print Hello World # step name, displayed on UI
+        run: echo Hello world! # print "Hello world!" here
