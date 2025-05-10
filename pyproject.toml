@@ -28,6 +28,7 @@ integration = [
 deployment = [
     "torch>=2.7.0",
     "transformers>=4.51.3",
+    "setuptools>=41.4.0",
     "onnx>=1.17.0",
     "onnxruntime>=1.21.1",
     "numpy>=2.2.5",
