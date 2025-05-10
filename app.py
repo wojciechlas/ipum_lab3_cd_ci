@@ -14,7 +14,7 @@ async def health():
 
 @app.get("/")
 async def home():
-    retur {"INFO": "Go to '/docs' endpoint"}
+    return {"INFO": "Go to '/docs' endpoint"}
 
 
 @app.post("/predict")
