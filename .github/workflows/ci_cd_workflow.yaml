@@ -5,7 +5,7 @@ name: CI/CD workflow
 on: workflow_dispatch
 
 jobs:
-    - integration:
+    integration:
       name: checks_and_tests
       runs-on: ubuntu-latest
       steps:
@@ -29,7 +29,7 @@ jobs:
          - name: Run PyTest
            run: uv run pytest tests
 
-    - deployment:
+    deployment:
         name: deploy
         runs-on: ubuntu-latest
         steps:
